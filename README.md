@@ -12,4 +12,4 @@ A página "Nobre Piscinas" foi criada com os seguintes objetivos:
 - Simular o design de uma landing page comercial com estrutura responsiva (básica).
 - Experimentar boas práticas de estruturação e estilização em projetos web.
 
-Apesar de ser uma página funcional, ela é **totalmente estática** e não possui integração com back-end ou sc
+Apesar de ser uma página funcional, ela é **totalmente estática** e não possui integração com back-end.
