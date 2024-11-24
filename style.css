@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 90px;
+    background: var(--primary-dark, #233673);
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+header a{
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+.header-total{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 26px;
+}
+nav{
+    display: flex;
+    gap: 35px;
+}
+.icons a{
+    height: 20px;
+}
+.hero{
+    width: 100vw;
+    height: 711px;
+    background-image: url(img/background-main.jpg);
+}
+.back-hero{
+    background-image: linear-gradient(270deg, rgba(33, 143, 217, 0.10) 0%, #09629D 100%);
+    height: 711px;
+    display: flex;
+    justify-content: center;
+}
+.org-hero{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+    width: 672px;
+    flex-direction: column;
+}
+h1 span{
+    color: #FFA000;
+    font-weight: 900;
+}
+.hero p{
+    color: rgba(255, 255, 255, 0.95);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 570px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.botao-vazado{
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    padding: 15px 48.1px 16px 49px;
+    border: 1px solid #FFF;
+}
+.botao-laranja{
+    width: 280px;
+    padding: 16px 20.03px 15px 18px;
+    box-sizing: border-box;
+    background-color: #FC8A33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+img .botao-laranja{
+    height: 14px;
+}
+.buttons{
+    width: 510px;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    color: #005C99;
+    font-family: Catamaran;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+}
+h3{
+    color: var(--neutra-black-2, #1F2937);
+    font-family: Catamaran;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 45.6px */
+    width: 440px;
+}
+p{
+    width: 470px;
+    color: #736F82;
+    font-family: Catamaran;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+.sobre{
+    width: 100vw;
+    height: 240px;
+    background: linear-gradient(90deg, #2B428C 0%, #233673 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-sobre{
+    display: flex;
+}
+.text-sobre img{
+    width: 59.875px;
+    height: 59.875px;
+}
+.sobre p{
+    color: var(--primary-extra-light, #B2C6FF);
+    font-family: Catamaran;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    width: 570px;
+}
+.sobre h3{
+    color: var(--neutra-white, #FFF);
+    font-family: Catamaran;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33.6px */
+    width: 400px;
+}
+.bloquinho-sobre{
+    margin-left: 30px;
+}
+.org-sobre{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobre a{
+    border-radius: 5px;
+    background: #FC8A33;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 251px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.sobre .gotas{
+    width: 317px;
+    height: 239px;
+}
+.sobre-nos h3, .sobre-nos p{
+    width: 520px;
+}
+.sobre-nos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.org-sobre-nos{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 174px;
+    margin-bottom: 174px;
+}
+.sobre-nos a{
+    color: var(--primary, #3655B3);
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    text-decoration: none;
+    display: flex;
+    padding: 15px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-light, #008FEF);
+    background: #FFF;
+    box-shadow: 0px 5px 5px -25px rgba(80, 64, 128, 0.15);
+    width: 240px;
+}
+.sobre-nos p{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.orcamento{
+    background: rgba(178, 198, 255, 0.10);
+    box-shadow: 0px -20px 25px -25px rgba(0, 0, 0, 0.20);
+    height: 912px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orcamento form{
+    width: 573px;
+    height: 747px;
+    border-radius: 10px;
+    background-color: #233673;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orcamento h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 120%;
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
+.orcamento p{
+    color: #FFF;
+    font-size: 16px;
+    width: 450px;
+    text-align: center;
+    line-height: 120%;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: #B2C6FF;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: Catamaran;
+    margin-top: 36px;
+}
+.input input{
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    opacity: 0.3;
+    background-color: #B2C6FF;
+    padding-left: 16px;
+    border: none;
+    color: #cccccc;
+}
+button{
+    background-color: #FC8A33;
+    border-radius: 5px;
+    width: 450px;
+    height: 50px;
+    border: none;
+    color: #F2F2F2;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+}
+.container-rodape{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 45px;
+}
+.rodape span{
+    color: var(--primary-extra-light, #B2C6FF);
+    font-family: Catamaran;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.rodape p{
+    color: var(--neutra-white, #FFF);
+    font-family: Catamaran;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;  
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+.convite p{
+    width: 370px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    background: var(--primary-dark, #233673);
+}
+footer{
+    display: flex;
+    width: 100vw;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #1F3066;
+}
+.text-piscinas{
+    width: 1100px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+}
+.circles{
+    width: 1100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 26px;
+}
+.linhas{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px; 
+    overflow: scroll;
+    width: 1100px;
+    height: 460px;
+}
+.linhas .bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.linhas h4{
+    color: var(--primary, #3655B3);
+    font-family: Catamaran;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+.linhas p{
+    color: var(--neutra-black-2, #1F2937);
+    font-family: Catamaran;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    width: 270px
+}
+.linhas img{
+    width: 270px;
+}
+.piscinas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.piscinas a{
+    width: 270.961px;
+    height: 47px;
+    border-radius: 5px;
+    border: 1px solid var(--primary, #3655B3);
+    text-decoration: none;
+    color: var(--primary, #3655B3);
+    font-family: Catamaran;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    margin-top: 80px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.piscinas a img{
+    margin-right: 10px;
+}
+.botao-pdf{
+    width: 1100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.espaçamento-insta{
+    margin-right: 20px;
+}
+.midias span{
+    margin-bottom: 10px;
+}
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 577px) {
+    .header-nav{
+        display: none;
+    }
+    .header-total{
+        width: 90vw;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+    }
+    h1, .hero p{
+        width: 80vw;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .botao-laranja{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+    .text-piscinas{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        height: 360px;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    .text-piscinas p{
+        margin-top: 40px;
+        margin-bottom: 60px;
+        width: 80vw;
+    }
+    .text-piscinas h3{
+        width: 80vw;
+    }
+    .circles{
+        width: 80vw;
+        display: flex;
+    }
+    .botao-pdf{
+        width: 80vw;
+    }
+    .text-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+    .text-sobre h3{
+        width: 80vw;
+        display: flex;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .text-sobre p{
+        width: 76vw;
+        margin-bottom: 60px;
+    }
+    .org-sobre{
+        display: flex;
+        flex-direction: column;
+    }
+    .org-sobre a{
+        width: 80vw;
+    }
+    .sobre{
+        height: 430px;
+    }
+    .sobre-nos p{
+        width: 80vw;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .sobre-nos h3{
+        width: 80vw;
+    }
+    .org-sobre-nos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .org-sobre-nos img{
+        width: 100vw;
+    }
+    .text-sobre-nos a{
+        width: 80vw;
+        justify-content: center;
+    }
+    .text-sobre-nos{
+        margin-bottom: 60px;
+    }
+    .orcamento{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+        background: #233673;
+        height: 700px;
+        margin-bottom: 90px;
+    }
+    .orcamento form{
+        width: 100vw;
+    }
+    .infos{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        gap: 25px;
+        height: auto;
+    }
+    .rodape{
+        height: 400px;
+    }
+    .piscinas{
+        display: flex;
+        flex-direction: column;
+    }
+    .linhas{
+        overflow: scroll;
+        width: 90vw;
+    }
+    .org-hero{
+        width: 80vw;
+    }
+    .back-hero{
+        display: flex;
+        justify-content: center;
+    }
+    .input input{
+        width: 80vw;
+    }
+    button{
+        width: 80vw;
+    }
+    .orcamento p, .orcamento h3{
+        width: 80vw;
+    }
+    .infos p{
+        width: 80vw;
+    }
+}
